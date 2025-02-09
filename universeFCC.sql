@@ -90,3 +90,5 @@ universe=> ALTER TABLE star ADD COLUMN age_in_millions_of_years INT;
 ALTER TABLE
 universe=> ALTER TABLE galaxy ADD COLUMN galaxy_table VARCHAR(30) NOT NULL;
 ALTER TABLE
+universe=> ALTER TABLE galaxy ADD COLUMN info_galaxy SERIAL;
+ALTER TABLE
